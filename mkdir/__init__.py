@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+__all__ = ['mkdir']
+
+
 import os
-import public
 import values
 
 
-@public.add
 def mkdir(path):
     """mkdir (if not exists)"""
     for path in values.get(path):
